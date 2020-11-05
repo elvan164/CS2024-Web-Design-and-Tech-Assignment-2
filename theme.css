@@ -1,0 +1,75 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+.font
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.card-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  min-height:1000px;
+}
+.banner{
+  background-image: url("images/index_banner.jpg");
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.about-banner{
+  background-image: url("images/about_banner.jpg");
+  background-repeat: no-repeat;
+  height:auto;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.apply-banner{
+  background-image: url("images/apply_banner.jpg");
+  background-repeat: no-repeat;
+  height:100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.navbar{
+    background:transparent;
+    font-weight:600;
+    color:white;
+    font-size:24pt;
+}
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+a:active {
+    color: white;
+  }
+
+#container { 
+	margin-right: auto;
+	margin-left: auto;
+}
